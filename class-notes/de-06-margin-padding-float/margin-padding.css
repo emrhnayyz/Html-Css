@@ -1,0 +1,60 @@
+/* *{
+    margin: 0;
+} */
+
+.btn{
+    background-color: beige;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+
+    margin: 2rem;
+
+    margin: 1rem 2rem 3rem 4rem;
+
+    margin: 3rem 2rem;
+
+    margin: 1rem 2rem 3rem;
+
+
+    padding: 1rem;
+
+    padding-left: 3rem;
+
+    
+}
+
+.span-btn{
+    background-color: burlywood;
+
+ /* inline elementlere width height verilemez */
+
+
+    width: 50px;
+    height: 50px;
+
+    /* margin olarakta alt-üst margin islemez, sag-sol margin isler */
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+
+    /* inline elementlere padding verdigimizde dört taraftanda alir fakat komsulari itemedigi icin onlarin alanina müdahale eder bu yüzden  inline elementlerde padding kullanmak tavsiye edilmez */
+    /* padding: 3rem; */
+    padding: 0 5rem 0 1rem;
+
+   
+}
+
+
+
+
+.new-btn{
+    background-color: red;
+    width: 20vw;
+    height: 20vh;
+
+    margin: 2rem auto;
+}

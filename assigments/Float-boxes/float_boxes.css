@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+.main1{
+    
+    background-color: salmon;
+    float: left;
+    height: 50vw;
+    width: 50%;
+}
+.main2{
+    background-color: salmon;
+    height: 50vw;
+    width: 50%;
+    float: left;
+    
+    
+
+
+}
+
+/* Divler */
+.container{
+    background-color: rgb(50, 56, 63);
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    
+}
+
+/* 1.main Kismi */
+
+.birinci{
+    float: left;
+}
+.ikinci{
+    clear: both;
+}
+.ücüncü{
+    float: left;
+}
+.dördüncü{
+    clear: both;
+}
+
+
+/* 2.main Kismi */
+.ilksatir,.ikincisatir,.ücüncüsatir,.dördüncüsatir,.besincisatir,.altincisatir{
+    float: right;
+}
+.arasatir{
+    clear: both;
+}
+
+
+
+

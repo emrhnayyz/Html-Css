@@ -1,0 +1,23 @@
+
+h2{
+    background-color: slategrey;
+    width: 100px;
+    color: snow;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 5px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 0;
+}
+.ul1{
+    margin-top: 0;
+    display: none;
+    border-style: solid;
+    width: 100px;
+}
+
+.acilir-menu:hover .ul1{
+    display: block;
+    background-color: rgb(240, 244, 247);
+}
