@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+Lao&display=swap');
+
+body{
+    background-image: url(./Pics/netflix_background_img.jpg);
+}
+
+.main{
+    margin: 20px 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+    
+    
+}
+
+form{
+    margin-left: 35%;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.568);
+    text-align: left;
+    padding: 20px 40px 20px 30px;
+    
+}
+
+
+/* Elements */
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
+
+}
+span{
+    color: red;
+    font-size: 42px;
+}
+span span{
+    font-size: 40px;
+}
+p{
+    font-family: 'Noto Serif Lao', serif;
+}
+
+#content{
+    width: 290px;
+
+}
+
+
+/* Button */
+button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: rgb(255, 0, 0);
+    padding: 8px 40px 8px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+ button:hover {
+    background: #c42d2d;
+    text-decoration: none;
+  }
