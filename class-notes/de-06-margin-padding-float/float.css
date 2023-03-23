@@ -1,33 +1,32 @@
 img{
-    width: 50%;
+    width:50%;
+}
+.img1{
+    float:right;
 }
 
-.img1{
-    float: right;
-}
 
 .temizle{
-    clear: both;
+    clear:both;
 }
 
 .box{
-    height: 2rem;
-    float: left;
-    
+    height:2rem;
+    float:left;
 }
-
 .box1{
-    background-color: rgb(194, 89, 194);
-    width: 20%;
+    background-color: rgb(199, 45, 199);
+    width:20%;
     
 }
-
 .box2{
-    background-color: rgb(230, 192, 27);
-    width: 30%;
-    clear: both;
+    background-color: orange;
+   
+    width:30%;
+    /* clear:both; */
 }
 .box3{
-    background-color: rgb(41, 135, 189);
-    width: 40%;
+    background-color: aqua;
+    width:40%;
+   
 }

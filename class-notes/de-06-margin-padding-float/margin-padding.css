@@ -1,60 +1,61 @@
 /* *{
-    margin: 0;
+    margin:0
 } */
 
 .btn{
-    background-color: beige;
-    margin-top: 1rem;
-    margin-right: 2rem;
-    margin-bottom: 3rem;
-    margin-left: 4rem;
+    background-color:beige;
+   
+margin-top: 1rem;
 
-    margin: 2rem;
+margin-right: 2rem;
 
-    margin: 1rem 2rem 3rem 4rem;
+margin-bottom: 3rem;
 
-    margin: 3rem 2rem;
-
-    margin: 1rem 2rem 3rem;
+margin-left:4rem;
 
 
-    padding: 1rem;
+margin:2rem;
 
-    padding-left: 3rem;
+margin:1rem 2rem 3rem 4rem;
 
-    
+margin:3rem 2rem;
+/* margin:3rem 2rem 3rem 2rem kısa hali */
+
+margin:1rem 2rem 3rem;
+/* margin:1rem 2rem 3rem 2rem; */
+/* üst sağ-sol alt */
+padding:1rem;
+padding-left:3rem;
+
 }
 
 .span-btn{
-    background-color: burlywood;
+    background-color:burlywood;
 
- /* inline elementlere width height verilemez */
-
-
-    width: 50px;
-    height: 50px;
-
-    /* margin olarakta alt-üst margin islemez, sag-sol margin isler */
-    margin-right: 1rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    /* inline elementlere width height verilemez ,img ler istisna*/
+    width:50px;
+   height:50px;
 
 
-    /* inline elementlere padding verdigimizde dört taraftanda alir fakat komsulari itemedigi icin onlarin alanina müdahale eder bu yüzden  inline elementlerde padding kullanmak tavsiye edilmez */
-    /* padding: 3rem; */
-    padding: 0 5rem 0 1rem;
+   /* margin olarakta alt-üst margin işlemez, sağ-sol işler */
+margin-top: 1rem;
+margin-right: 2rem;
+margin-bottom: 3rem;
+margin-left:4rem;
 
-   
+
+/* inline elementlere padding verdiğimizde 4 taraftan da alır, fakat komşuları itemediğinden onların alanına müdehale eder, bu yüzden inline larda padding kullanmak sağlıklı değildir */
+/* padding:2rem; */
+
+padding-right: 5rem;
+padding-left: 1rem;
 }
 
 
-
-
 .new-btn{
-    background-color: red;
-    width: 20vw;
-    height: 20vh;
+    background-color:red;
 
-    margin: 2rem auto;
+    width: 20vw;;
+    height:20vh;
+    margin:2rem auto;
 }
